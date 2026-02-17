@@ -34,7 +34,7 @@ const PostDetailPage = () => {
 
   if (loading) {
     return (
-      <div className="bg-white/80 rounded-2xl p-20 flex justify-center items-center">
+      <div className="bg-white/80 rounded-2xl p-20 flex justify-center items-center ">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-slate-700"></div>
       </div>
     );
@@ -43,13 +43,13 @@ const PostDetailPage = () => {
   if (!post) {
     return (
       <div className="p-20 text-center text-white">
-        Post not found.
+        Post not found
       </div>
     );
   }
 
   return (
-    <div className=" rounded-3xl shadow-2xl overflow-hidden min-h-[500px] flex flex-col">
+    <div className=" rounded-3xl shadow-2xl overflow-hidden min-h-[500px] flex flex-col min-h-[800px]">
       
      
       <div className="bg-[#416486]/80 backdrop-blur-sm  p-10 md:p-16 text-white relative ">
